@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.39)),url(/pics/matthew-smith-Rfflri94rs8-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+ .main header{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    flex-wrap: wrap;
+    background-color: rgba(44, 92, 44, 0.274);
+    height: 12vh;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    /* margin-top: 25px; */
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    color: white;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    /* margin-top: 20px; */
+}
+
+
+
+.main .btn button{
+    height:50px;
+    width: 130px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid white;
+    flex-wrap: wrap;
+}
+
+
+.main .btn button a{
+    color: rgb(19, 71, 19);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+.main section{
+    text-align: center;
+}
+
+.main section h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 45px;
+    line-height: 50px;
+    
+}
+.main section h1:hover{
+    animation: ;
+}
+
+.main section button{
+    height: 7vh;
+    width: 10vw;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.main section button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 43, 5);
+    font-size: 15px;
+}
+
+.about{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 50px;
+margin-top: 40px;
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.about h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 80, 9);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.about img{
+    border-radius: 15px;
+    
+}
+
+.facts{
+    
+    background-color: rgb(233, 231, 231);
+    margin-top: 40px;
+
+}
+.facts h2{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+margin-top: 30px;
+color: rgba(28, 92, 28, 0.979);
+}
+
+.mainfact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    height: 60vh;
+    margin-top: 40px;
+
+     
+
+
+
+.items{
+    background-color: white;
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+ box-shadow: 1px 1px 6px rgba(214, 212, 212, 0.658) ;
+ 
+
+}
+
+
+}
+
+.items:hover{
+    transform: translateY(-12px);
+    transition: 1s;
+    color: white;
+    background-color: rgba(36, 80, 36, 0.795);
+}
+
+.items p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+   
+}
+.items h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 120px;
+}
+
+
+footer{
+    background-color: rgba(1, 20, 1, 0.925);
+    height: 50vh;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    
+}
+.foot h2{
+    margin-top: 30px;
+    color: rgb(106, 148, 106);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.foot p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.foot p a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.foot .footlink{
+    display: block;
+}
+
+.fot1 p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 28px;
+}
+
+
+
+/* discover page */
+
+.discover header{
+    background-color: rgba(29, 63, 29, 0.753);
+    display: flex;
+    margin-top: 0px;
+    
+    justify-content: center;
+    height: 12vh;
+    gap: 200px;
+}
+.discover nav ul {
+    margin-top: 30px;
+}
+.discover .logo{
+    margin-top: 30px;
+}
+
+.discover header .btn button{
+    height: 38px;
+    width: 120px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.discover header .btn button a{
+    text-decoration: none;
+    font-size: 17px;
+    color: green;
+}
+
+.clim{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.clim1{
+    margin-top: 70px;
+
+    .clim3{
+margin-top: 30px;
+    }
+
+}
+.clim2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+        color: green;
+}
+
+.clim2 p{
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 25px;
+
+}
+
+.clim3 h2{
+    color: green;
+    font-size: 24px;
+}
+
+.clim3 p{
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+.clim img{
+margin-top: 50px;
+}
+
+.learn{
+    background-color: rgb(238, 233, 233);
+    margin-top: 70px;
+    display: flex;
+     flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    height: 85vh;
+    box-shadow: 1px 1px 6px rgba(214, 212, 212, 0.753);
+   
+}
+
+.leitems{
+    background-color: white;
+height: 60vh;
+width: 26vw;
+margin-top: 90px;
+text-align: center;
+ 
+
+}
+.leitems:hover{
+background-color: rgb(38, 65, 38);
+color: white;
+transform: translateY(-15px);
+transition: 1s;
+
+
+}
+
+
+.leitems h4{
+    color: rgb(15, 66, 15);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.leitems p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.leitems button{
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(21, 51, 21, 0.973);
+    border-radius: 30px;
+    border: 2px solid rgba(21, 51, 21, 0.973) ;
+}
+
+.leitems button a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.leitems .lei{
+    background-color: green;
+    width: 8vw;
+    border-radius: 360px;
+    height: 18vh ;
+    object-fit: cover;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.leitems p img{
+    margin-top: 20px;
+    color: white;
+
+}
+
+
+/* Causes */
+
+.cause header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 150px;
+  background-color: rgba(29, 63, 29, 0.753);
+  height: 13vh;
+  
+}
+
+.cause nav ul li a{
+    font-size: 18px;
+}
+
+
+
+ .cause .navbar nav ul{
+        margin-top: 30px;
+    }
+ .logo{
+        margin-top: 30px;
+    }
+
+    .cause{
+        .btn button{
+            height: 30px;
+            width: 100px;
+            margin-top: 22px;
+            background-color: rgb(20, 53, 20);
+            border: 2px solid rgb(20, 53, 20) ;
+            border-radius: 30px;
+        }
+        .btn button a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .causecont h2{
+        color: rgb(11, 46, 11);
+        font-size: 30px;
+        margin-top: 40px;
+        /* text-align: center; */
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .causecont hr{
+        color: rgb(8, 56, 8);
+    }
+
+   .cau h3{
+            color: rgb(32, 65, 32);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+       .cau p{
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        
+        }
+
+    
+      .cas  h3{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            font-size: 25px;
+        }
+
+
+    .causecontanier{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+
+    }
+    .causeitems{
+        background-color: white;
+        height: 60vh;
+        width: 27vw;
+        box-shadow: 1px 1px 6px rgba(197, 192, 192, 0.623);
+        margin-top: 0px;
+        margin-bottom: 50px;
+
+ 
+    }
+
+           h4{
+            color: rgb(22, 36, 22);
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        
+        p{
+            margin-left:20px ;
+            line-height: 25px;
+            margin-top: 10px;
+        }
+
+        i{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        }
+
+
+    .causeitems:hover{
+        background-color: rgb(25, 65, 25);
+        color: white;
+        transform: translateY(-15px);
+        transition: 1s;
+    }
+
+    /* Effects */
+
+    .hero h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .causeitems1{
+        background-color: rgb(202, 32, 32);
+        height: 190px;
+        width: 368px;
+    }
+    .causeitems2{
+        background-color: rgb(69, 69, 226);
+        height: 190px;
+        width: 368px;
+    }
+
+    .causeitems3{
+        background-color: rgba(119, 219, 119, 0.788);
+        height: 190px;
+        width: 368px;
+    }
+
+    .eff{ 
+        .causeitems1 i{
+        margin-left: 140px;
+        margin-top: 50px;
+        font-size: 90px;
+    }
+
+    .causeitems2 i{
+        margin-left: 140px;
+        margin-top: 50px;
+        font-size: 90px;
+    }
+
+    .causeitems3 i{
+        margin-left: 140px;
+        margin-top: 50px;
+        font-size: 90px;
+    }
+
+
+}
+
+
+
+    /* solutions */
+
+.solu header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  background-color: rgba(29, 63, 29, 0.753);
+  height: 13vh;
+}
+
+.solu .navbar nav ul{
+    margin-top: 30px;
+}
+    .solu{
+        .btn button{
+            height: 40px;
+            width: 100px;
+            margin-top: 22px;
+            background-color: rgb(20, 53, 20);
+            border: 2px solid rgb(20, 53, 20) ;
+            border-radius: 30px;
+        }
+        .btn button a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .sol1 h2{
+
+       font-size: 30px;
+        color: rgb(32, 90, 32);
+        text-align: center;
+        margin-top: 30px;
+} 
+
+.sol1 hr{
+    width: 50vw;
+    height: 3px;
+    margin-left: 350px;
+    background-color: green;
+    margin-top: 20px;
+    
+}
+
+.causeitems h1{
+    margin-left: 20px;
+}
+
+.causeitems .kill{
+    line-height: 30px;
+    font-size: 17px;
+}
+
+
+.action{
+    background-color: rgba(230, 227, 227, 0.815);
+}
+
+.action .act1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 20px;
+}
+
+.action .causeitems i{
+    margin-bottom: 30px;
+    
+}

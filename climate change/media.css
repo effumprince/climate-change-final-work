@@ -1,0 +1,523 @@
+@media screen and (max-width: 370px) {
+
+body{
+    width: auto;
+}
+    .main{
+        width: auto;
+    }
+.main header{
+    display: block;
+    height: 250px;
+    width: auto;
+    background-color: rgba(3, 71, 3, 0.747);
+    text-align: center;
+}
+.logo{
+    color:white;
+    padding-top: 20px;
+
+}
+nav ul{
+    line-height: 30px;
+    margin-top: 30px;
+    display: block;
+}
+nav ul li a{
+   font-size: 17px; 
+}
+.btn button{
+    width: 120px;
+    margin-top: 20px;
+}
+
+.main section h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 90px;
+}
+
+.main section button{
+    width: 32vw;
+}
+
+.about{
+    display: block;
+    line-height: 2px;
+
+
+}
+
+
+
+.about h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(8, 58, 8);
+    font-size: 30px;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    margin-left: 12px;
+}
+.about img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.facts{
+    height: 180vh;
+    width: auto;
+}
+
+
+.mainfact{
+    display: block;
+}
+
+.mainfact .items{
+    width: 90vw;
+    justify-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+
+
+
+footer{
+    width: auto;
+    height: 90vh;
+}
+
+.foot{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+/* learn */
+
+.discover header{
+    display: block;
+    height: 50vh;
+    text-align: center;
+    width: auto;
+    
+    
+}
+.clim{
+    display: block;
+}
+.clim1{
+    width: auto;
+}
+
+.clim img{
+    width: 70vw;
+    height: 40vh;
+    margin-left: 20px;
+}
+
+.learn{
+    display: block;
+    height: 220vh;
+    width: 100vw;
+}
+
+.leitems{
+    width: 90vw;
+    margin-left: 15px;
+    
+
+}
+.leitems .lei{
+    width: 40vw;
+    height: 16vh;
+    margin-left: 90px;
+    background-color: none;
+    margin-top: 50px;
+  
+}
+
+.cause header{
+    display: block;
+    height: 40vh;
+    text-align: center;
+}
+
+.cau p{
+text-align: left;
+}
+
+.causecontanier{
+    display: block;
+    
+}
+
+.causeitems{
+    width: 100vw;
+}
+
+.causeitems img{
+    width: 100vw;
+}
+
+.causeitems1,
+.causeitems2,
+.causeitems3{
+    width: 100vw;
+}
+
+
+.solu header{
+    display: block;
+    text-align: center;
+    height: 50vh;
+
+}
+
+
+}
+
+@media  (min-width: 371px) and (max-width: 375px) {
+
+    body{
+        width: auto;
+    }
+
+    .main{
+        width: auto;
+        height: 110vh;
+    }
+    .main header{
+        flex-direction: column;
+        text-align: center;
+        height: 45vh;
+        gap: 5px; 
+    
+    }
+
+    nav ul{
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+
+
+
+    .main section h1{
+        font-size: 33px;
+    }
+
+    .main section button{
+        width: 50vw;
+    }
+
+
+    .about img{
+        width: 70vw;
+        height: 30vh;
+    }
+
+
+    .mainfact{
+        width: auto;
+        flex-direction: column;
+        height: 200vh;
+
+        .items{
+            width: 90vw;
+            margin-left: 15px;
+        }
+        
+    }
+
+    footer{
+        height: 110vh;
+
+    }
+    .foot{
+        gap: 20px;
+    }
+
+    .foot p{
+        font-size: 20px;
+    }
+    
+
+    .discover header{
+        flex-direction: column;
+        text-align: center;
+        height: 50vh;
+        gap: 20px;
+    }
+
+    .learn{
+        height: 240vh;
+        display: block;
+
+    }
+
+    .leitems{
+        width: 90vw;
+        margin-left: 15px;
+    }
+
+    .leitems .lei{
+        width: 30vw;
+        height: 15vh;
+    }
+
+    .cause header{
+        flex-direction: column;
+        text-align: center;
+        height: 50vh;
+        gap: 20px; 
+    }
+
+    .cau p{
+        text-align: left;
+    }
+
+    .causecontanier{
+        display: block;
+    }
+
+    .causeitems{
+        width: 90vw;
+        margin-left: 15px;
+        object-fit: cover;
+    }
+
+    .causeitems img{
+        width: 340px;
+    }
+
+
+    .causeitems1,
+    .causeitems2,
+    .causeitems3{
+        width: 340px;
+    }
+
+    .solu header{
+        flex-direction: column;
+        text-align: center;
+        height: 55vh;
+        gap: 20px; 
+    }
+
+    .sol1 hr{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+
+    .main{
+
+        height: 127vh;
+    }
+    .main header{
+        flex-direction: column;
+        gap: 50px;
+        height: 60vh;
+        text-align: center;
+    }
+nav ul{
+    flex-direction: column;
+}
+    .main section button{
+        margin-top: 30px;
+width: 200px;
+
+    }
+
+
+    .about img{
+        width: 90vw;
+    }
+
+
+    .mainfact{
+        display: block;
+        height: 180vh;
+      
+
+        .items{
+            width: 80vw;
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+    }
+
+    footer{
+        height: 128vh;
+        gap: 10px;
+    }
+
+    .foot p{
+        font-size: 18px;
+    }
+
+    .discover header{
+        flex-direction: column;
+        gap: 50px;
+        height: 60vh;
+        text-align: center;
+    }
+
+    .learn{
+        display: block;
+        height: 220vh;
+    }
+
+    .leitems{
+        width: 90vw;
+        margin-left: 15px;
+    }
+
+    .leitems .lei{
+        width: 32vw;
+    }
+
+
+    .cause header{
+        flex-direction: column;
+        gap: 50px;
+        height: 60vh;
+        text-align: center;
+    }
+
+    .cau p{
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .causecontanier{
+        display: block;
+    }
+
+    .causeitems{
+        width: 80vw;
+        margin-left: 35px;
+    }
+
+    .causeitems img{
+        width: 80vw;
+    }
+
+     .causeitems1,
+    .causeitems2,
+    .causeitems3{
+        width: 80vw;
+    }
+
+    .solu header{
+         flex-direction: column;
+        gap: 50px;
+        height: 60vh;
+        text-align: center;
+    }
+
+    .sol1 hr{
+        display: none;
+    }
+    
+
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+.main header{
+    display: block;
+    text-align: center;
+    height: 35vh;
+}
+
+nav ul{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.mainfact{
+    height: 130vh;
+}
+.mainfact .items{
+    width: 43vw;
+}
+
+footer{
+    height: vh;
+    gap: 20px;
+}
+
+.foot{
+    gap: 20px;
+}
+
+.discover header{
+    display: block;
+    text-align: center;
+    height: 40vh;
+}
+
+.learn{
+    height: 240vh;
+}
+
+.leitems{
+    width: 60vw;
+}
+
+.leitems .lei{
+    width: 20vw;
+}
+
+.cause header{
+    display: block;
+    text-align: center;
+    height: 35vh;  
+}
+
+.causeitems{
+    width: 45vw;
+}
+
+.causeitems img{
+    width: 45vw;
+}
+
+.causeitems1,
+    .causeitems2,
+    .causeitems3{
+        width: 45vw;
+    }
+
+    .solu header{
+        display: block;
+        text-align: center;
+        height: 45vh;
+    }
+
+    .sol1 hr{
+        display: none;
+    }
+
+
+
+}
+
