@@ -192,6 +192,10 @@ color: rgba(28, 92, 28, 0.979);
     margin-top: 10px;
 }
 
+.mainfact..items i{
+color: green;
+}
+
 
 footer{
     background-color: rgba(1, 20, 1, 0.925);
