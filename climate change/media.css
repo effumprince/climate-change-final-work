@@ -409,9 +409,8 @@ line-height:25px;
         margin-left: 15px;
     }
 
-    .leitems .lei{
-        width: 32vw;
-background-color:none;
+    .leitems {
+background-color: none;
     }
 
 
