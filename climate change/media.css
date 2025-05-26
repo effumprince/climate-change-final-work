@@ -1,4 +1,4 @@
-@media screen and (max-width: 370px) {
+7@media screen and (max-width: 370px) {
 
 body{
     width: auto;
@@ -228,7 +228,9 @@ text-align: left;
         width: 70vw;
         height: 30vh;
     }
-
+.about p{
+font-size:12px;
+}
 
     .mainfact{
         width: auto;
