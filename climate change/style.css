@@ -371,7 +371,7 @@ transition: 1s;
     font-size: 13px;
 }
 .leitems .lei{
-    background-color: green;
+    background-color: none;
     width: 8vw;
     border-radius: 360px;
     height: 18vh ;
