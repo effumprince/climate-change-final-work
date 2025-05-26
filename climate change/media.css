@@ -275,6 +275,7 @@ text-align: left;
     .leitems .lei{
         width: 30vw;
         height: 15vh;
+background-colour:none;
     }
 
     .cause header{
