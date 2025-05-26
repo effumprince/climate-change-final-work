@@ -370,7 +370,7 @@ transition: 1s;
     text-decoration: none;
     font-size: 13px;
 }
-.leitems .lei{
+/*.leitems .lei{
     background-color: none;
     width: 8vw;
     border-radius: 360px;
@@ -378,7 +378,7 @@ transition: 1s;
     object-fit: cover;
     margin-left: 130px;
     margin-top: 20px;
-}
+}*/
 
 .leitems p img{
     margin-top: 20px;
